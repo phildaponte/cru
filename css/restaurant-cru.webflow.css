@@ -1,0 +1,517 @@
+.bg-wrapper {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  display: block;
+  background-color: #d8d1ca;
+  background-image: url('../images/motif.png'), url('../images/bg-sea-low.svg');
+  background-position: 50% 50%, 0px 0px;
+  background-size: auto 100%, 840px;
+  background-repeat: repeat-x, repeat;
+}
+
+.navbar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 100;
+  width: 17%;
+  min-height: 560px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  background-color: #fff;
+}
+
+.brand {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-link {
+  position: relative;
+  display: block;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-family: 'Source Code Pro', sans-serif;
+  color: #082539;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 7px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.small-text {
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-family: 'Source Code Pro', sans-serif;
+  color: #082539;
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.social-link {
+  font-family: 'Source Code Pro', sans-serif;
+  color: #c84e2a;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.home-wrapper {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 200px;
+  padding-left: 20%;
+  font-family: 'Source Code Pro', sans-serif;
+  color: #000;
+  font-weight: 400;
+}
+
+.container {
+  height: 100%;
+}
+
+.div-content {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 85%;
+  margin-top: 25px;
+  padding: 40px 40px 60px;
+  clear: left;
+  background-color: #fff;
+}
+
+.div-content.home-text {
+  display: none;
+}
+
+.box-black {
+  position: relative;
+  display: block;
+  width: 70%;
+  height: 400px;
+  margin-left: 76px;
+  background-color: #fff;
+  background-image: url('../images/salle-haut.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box-black.second {
+  width: 55%;
+  margin-top: 220px;
+  margin-left: 350px;
+  background-image: url('../images/Brophoto20160215-Cru-0527.jpg');
+  background-size: cover;
+}
+
+.box-black.box-2 {
+  display: none;
+}
+
+.fish-1 {
+  position: relative;
+  z-index: 5;
+  display: none;
+  margin-top: -90px;
+  margin-right: 20px;
+  float: right;
+}
+
+.fish-1._2 {
+  margin-top: -53px;
+  margin-right: -35px;
+}
+
+.img-2 {
+  position: relative;
+  z-index: 3;
+  margin-top: -257px;
+}
+
+.img-1 {
+  margin-top: -76px;
+}
+
+.crevette-1 {
+  margin-top: 352px;
+  margin-left: 246px;
+}
+
+.heading-section {
+  margin-top: -78px;
+  margin-bottom: 40px;
+  margin-left: -74px;
+  font-family: baskerville-urw, sans-serif;
+  color: #082539;
+  font-size: 90px;
+  line-height: 52px;
+  font-weight: 700;
+}
+
+.title {
+  position: relative;
+  margin-top: 20%;
+  margin-bottom: 15%;
+  border-top: 6px solid #082539;
+  font-family: 'Source Code Pro', sans-serif;
+  color: #fff;
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 500;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 6px hsla(0, 0%, 100%, .04);
+}
+
+.title.home-title {
+  margin-top: 25%;
+  margin-bottom: 15%;
+  color: #fff;
+}
+
+.carte-wrapper {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding-top: 10%;
+  padding-bottom: 200px;
+  padding-left: 20%;
+  font-family: 'Source Code Pro', sans-serif;
+  color: #000;
+  font-weight: 400;
+}
+
+.menu-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-top: 5px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.menu-description {
+  padding-left: 20px;
+}
+
+.menu-price {
+  font-family: 'Source Code Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.carte-sub {
+  display: inline-block;
+  margin-bottom: 30px;
+  line-height: 24px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.carte-italic {
+  font-style: italic;
+}
+
+.box-1 {
+  width: 60%;
+  height: 600px;
+  margin: -330px 53px -250px 310px;
+  float: right;
+  background-color: #082539;
+  background-image: url('../images/salle-pierre2.jpg'), url('../images/Brophoto20160215-Cru-7862.jpg');
+  background-position: 50% 50%, 50% 50%;
+  background-size: cover, cover;
+  background-repeat: no-repeat, repeat;
+}
+
+.hour-container {
+  position: relative;
+  width: 35%;
+  height: 180px;
+  margin-bottom: -240px;
+  margin-left: 30px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #fff;
+}
+
+.contact-wrapper {
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 200px;
+  padding-left: 20%;
+  font-family: 'Source Code Pro', sans-serif;
+  color: #000;
+  font-weight: 400;
+}
+
+.link-map {
+  color: #e34415;
+  text-decoration: none;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    position: static;
+    display: block;
+    width: 100%;
+    min-height: 560px;
+    margin-left: 0px;
+  }
+  .small-text {
+    padding-bottom: 40px;
+  }
+  .home-wrapper {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .div-content {
+    width: 100%;
+  }
+  .box-black.box-2 {
+    display: none;
+  }
+  .title.home-title {
+    margin-top: 42%;
+  }
+  .carte-wrapper {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .hour-container {
+    width: 300px;
+    height: 220px;
+  }
+  .nav-container {
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .contact-wrapper {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .bg-wrapper {
+    z-index: -1;
+    background-image: url('../images/motif.png'), url('../images/bg-sea-low.svg');
+    background-position: 50% 50%, 61% 47%;
+    background-size: auto 100%, 840px;
+    background-repeat: repeat-x, repeat;
+  }
+  .navbar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .home-wrapper {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .div-content {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .box-black.box-2 {
+    display: none;
+  }
+  .carte-wrapper {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .menu-description {
+    padding-left: 0px;
+  }
+  .menu-price {
+    padding-left: 5px;
+  }
+  .hour-container {
+    height: 190px;
+    margin-bottom: -219px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .contact-wrapper {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
+
+@media (max-width: 479px) {
+  .bg-wrapper {
+    background-image: url('../images/motif.png'), url('../images/bg-sea-low.svg');
+    background-position: 50% 50%, 61% 47%;
+    background-size: auto 100%, 840px;
+    background-repeat: repeat-x, repeat;
+  }
+  .home-wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .div-content {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .div-content.home-text {
+    display: none;
+  }
+  .box-black {
+    width: 90%;
+    height: 300px;
+    margin-left: 0px;
+  }
+  .box-black.box-2 {
+    display: block;
+    margin-top: -60px;
+    float: right;
+    background-image: url('../images/1.jpg');
+    background-position: -3% 50%;
+    background-size: cover;
+  }
+  .box-black.box-2.box-3 {
+    margin-top: -60px;
+    float: left;
+    background-image: url('../images/salle-pierre2.jpg');
+  }
+  .title {
+    font-size: 48px;
+  }
+  .title.home-title {
+    margin-top: 10%;
+  }
+  .carte-wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .menu-description {
+    font-size: 10px;
+  }
+  .box-1 {
+    display: none;
+    width: 100%;
+    height: 200px;
+    margin: 0px;
+  }
+  .hour-container {
+    width: 100%;
+    height: 190px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .nav-container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@font-face {
+  font-family: 'Campton';
+  src: url('../fonts/Rene.Bieder_Campton.Medium.eot') format('embedded-opentype'), url('../fonts/Rene.Bieder_Campton.Medium.woff') format('woff'), url('../fonts/Rene.Bieder_Campton.Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Campton';
+  src: url('../fonts/Rene.Bieder_Campton.SemiBold.eot') format('embedded-opentype'), url('../fonts/Rene.Bieder_Campton.SemiBold.woff') format('woff'), url('../fonts/Rene.Bieder_Campton.SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Campton';
+  src: url('../fonts/Rene.Bieder_Campton.Light.woff') format('woff'), url('../fonts/Rene.Bieder_Campton.Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
