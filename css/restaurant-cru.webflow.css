@@ -111,7 +111,7 @@
   height: 400px;
   margin-left: 76px;
   background-color: #fff;
-  background-image: url('../images/salle-haut.jpg');
+  background-image: url('../images/salle-haut.jpeg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -255,7 +255,7 @@
   margin: -330px 53px -250px 310px;
   float: right;
   background-color: #082539;
-  background-image: url('../images/salle-pierre2.jpg'), url('../images/Brophoto20160215-Cru-7862.jpg');
+  background-image: url('../images/salle-pierre.jpeg');
   background-position: 50% 50%, 50% 50%;
   background-size: cover, cover;
   background-repeat: no-repeat, repeat;
@@ -462,7 +462,7 @@
   .box-black.box-2.box-3 {
     margin-top: -60px;
     float: left;
-    background-image: url('../images/salle-pierre2.jpg');
+    background-image: url('../images/salle-pierre.jpg');
   }
   .title {
     font-size: 48px;
